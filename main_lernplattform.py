@@ -1,4 +1,5 @@
 from aufgabe import Aufgabe
+
 a1 = Aufgabe('25.4.2023', '27.4.2023')
 
 print(a1)
@@ -15,5 +16,11 @@ print(a1.startdatum)
 print(a2.startdatum)
 print(a3.startdatum)
 
-#test
+# Klasse testen
+
+from aufgabe import Kurs
+k1 = Kurs()
+k1.add_aufgabe(a1)
+k1.add_aufgabe(a3)
+k1.drucken()
 
