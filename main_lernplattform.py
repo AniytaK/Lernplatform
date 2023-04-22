@@ -18,7 +18,7 @@ print(a3.startdatum)
 
 # Klasse testen
 
-from aufgabe import Kurs
+from kurs import Kurs
 k1 = Kurs()
 k1.add_aufgabe(a1)
 k1.add_aufgabe(a3)
